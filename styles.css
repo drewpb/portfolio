@@ -1,3 +1,16 @@
+"background-color": (
+      property: background-color,
+      class: bg,
+      values: map-merge(
+        $theme-colors,
+        (
+          "body": $body-bg,
+          "white": $white,
+          "transparent": transparent
+        )
+      )
+    )
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
